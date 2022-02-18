@@ -35,14 +35,35 @@ picture {
     display: block;
 }
 
-
 /* Utility classes */
 
 .grid {
     display: grid;
-    gap: var(--gap, 1rem);
+    gap: var(--gap,);
 }
 
-.container {
-    margin: auto;
+.flex {
+    display: flex;
+    gap: var(--gap,)
+}
+
+.text_font {
+    font-size: 16px;
+}
+
+.text_font_family {
+    font-family:"Red Hat Display";
+    font-weight: var(--wg, );
+}
+
+/* classes */
+
+.main_container {
+    background: url(./images/pattern-background-desktop.svg) no-repeat top center;
+    background-size: contain;
+    background-color: rgb(215, 215, 255);
+}
+
+.card_container {
+    size: ;
 }
