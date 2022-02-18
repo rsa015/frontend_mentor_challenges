@@ -61,9 +61,19 @@ picture {
 .main_container {
     background: url(./images/pattern-background-desktop.svg) no-repeat top center;
     background-size: contain;
-    background-color: rgb(215, 215, 255);
+    background-color: rgb(228, 228, 255);
+}
+
+.container {
+    padding-top: 4em;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
 }
 
 .card_container {
-    size: ;
+    width: 30%;
+    height: 600px;
+    border-radius: 2em;
+    background-color: white;
 }
