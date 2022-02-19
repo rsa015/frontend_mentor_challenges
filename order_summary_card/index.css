@@ -147,9 +147,11 @@ picture {
 .proceed_payment button {
     width: 100%;
     height: 60%;
+    font-family:'Red Hat Display' sans-serif;
     margin-top: 2rem;
     border: none;
     border-radius: 1rem;
+    box-shadow: -0.5rem 0.5rem 1rem hsl(225deg 64% 69%);
     color: white;
     font-weight: bolder;
     background-color: hsl(245, 75%, 52%);
