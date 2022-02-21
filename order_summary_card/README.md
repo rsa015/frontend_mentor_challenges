@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./mydesigns/desktop view.png.jpg)
+![My design preview for the Order summary card coding challenge](./mydesigns/desktop design.png)
 
 ## My process
 
