@@ -138,6 +138,16 @@ picture {
     color: hsl(245, 75%, 52%);
 }
 
+.sub_change a:active {
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+}
+
+.sub_change a:hover{
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+}
+
 .proceed_payment {
     width: 22rem;
     margin-inline: auto;
@@ -157,10 +167,31 @@ picture {
     background-color: hsl(245, 75%, 52%);
 }
 
+.proceed_payment button:active {
+    background-color: blue;
+}
+
+.proceed_payment button:hover{
+    background-color: violet;
+}
+
+
 .cancel_order {
     color:hsl(224, 23%, 55%);
     font-weight: bold;
     margin: auto;
+}
+
+.cancel_order a {
+    text-decoration: none;
+}
+
+.cancel_order a:active{
+    color: hsl(223, 47%, 23%);
+}
+
+.cancel_order a:hover{
+    color: hsl(223, 47%, 23%);
 }
 
 body {
