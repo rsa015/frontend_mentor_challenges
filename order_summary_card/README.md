@@ -26,8 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![My design preview for the Order summary card coding challenge](./mydesigns/desktop design.png)
-
+![My design preview for the Order summary card coding challenge](./mydesigns/desktop-design.png)
 ## My process
 
 ### Built with
@@ -36,3 +35,35 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - CSS Grid
+
+### What I learned
+
+Through this project; I have learnt:
+
+- How to reset and design CSS custom properties
+- How to use CSS custom properties
+- How to design CSS custom classes
+- How to effcetive use flexbox and grid in altering the look of a web page
+- How to use custom fonts (i.e: google fonts) in a web application
+- How to render an svg file in the web (not the only way but one of the  many ways)
+- How to design the structure of a web page (at least the basic stuffs)
+- How to style a each structural elements using CSS3
+    ```
+    css
+    .flex {
+    display: flex;
+    gap: var(--gap; 1rem)
+    }
+    ```
+    Applying the designed flex to a div container in html.
+    ```
+    <div class="flex">
+        <p>This is a paragraph</p>
+        <div>another div</div>
+    </div>
+    ```
+
+## Author
+
+- Frontend Mentor - [@rsa015](https://www.frontendmentor.io/profile/rsa015)
+- Twitter - [@rs_amegee](https://www.twitter.com/rs_amegee)
